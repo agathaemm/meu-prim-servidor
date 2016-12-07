@@ -6,7 +6,7 @@ app = express();
 
 //estabele uma rota
 app.get('/', function(req, res) {
-    res.send("<h1>Hello world</h1>");
+    res.send("<img src='img/ok.jpg'>");
 });
 
 //tentando vincular o servidor a uma porta

@@ -10,5 +10,6 @@ app.get('/', function(req, res) {
 });
 
 //tentando vincular o servidor a uma porta
-var server = app.listen(8080);
-console.log('Servidor express iniciado');
+var server = app.listen(8080, function(){
+    console.log('Servidor express iniciado');
+});
